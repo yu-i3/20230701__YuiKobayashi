@@ -1,3 +1,7 @@
+.wrap {
+  overflow: hidden;
+}
+
 nav {
   padding: 20px;
   display: flex;
@@ -61,7 +65,7 @@ img {
 }
 
 .coachtech__blue-box {
-  width: 1000px;
+  width: 80%;
   height: 200px;
   background-color: #05417B
 } 
@@ -69,10 +73,4 @@ img {
 .coachtech__ttl {
   font-size: 60px;
   font-weight: 400;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
