@@ -1,31 +1,66 @@
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .name {
-  padding: 25px;
+  margin-right: 60%;
   font-size: 24px;
   font-weight: bold;
   color:#05417B
 }
 
-.nav {
+ul {
   display: flex;
   justify-content: space-around;
 }
 
 .nav-home {
+  margin-right: 20px;
   list-style: none;
   color: #05417B;
+  font-weight: bold;
 }
 
 .nav-business {
+  margin-right: 20px;
   list-style: none;
   color: #05417B;
+  font-weight: bold;
 }
 
 .nav-careers {
+  margin-right: 20px;
   list-style: none;
   color:#05417B;
+  font-weight: bold;
 }
 
 .nav-contact {
+  margin-right: 20px;
   list-style: none;
   color:#05417B;
+  font-weight: bold;
+}
+
+.coachtech__img {
+  margin: 0 0 0 auto;
+  padding: 50px 0;
+  display: block;
+  width: 50%;
+}
+.coachtech__blue-box {
+  width: 1100px;
+  height: 200px;
+  background-color: #05417B;
+  margin-top: -140px;
+  margin-right: 100px;
+}
+
+.coachtech__ttl {
+  position: absolute;
+  top: 60%;
+  font-size: 70px;
+  font-weight: 400;
 }
